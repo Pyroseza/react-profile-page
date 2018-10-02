@@ -1,0 +1,124 @@
+body {
+  text-align: center;
+  background-color: #222;
+}
+
+.App {
+  text-align: center;
+  background-color: #222;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: rgb(54, 185, 110);
+  border-bottom: 2px purple solid;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+@font-face {
+    font-family: calcFont;
+    src: url(Calculator.ttf);
+}
+
+.profile-info {
+  align-items: center;
+  color: rgb(54, 185, 110);
+}
+
+.profile-logo {  
+  height: 50px;
+}
+
+.profile-info-primary {
+  align-items: center;
+  padding-left: 10px;
+  display: inline-flex;
+  padding: 10px;
+}
+
+.profile-info-staff {
+  align-items: center;
+  padding-left: 10px;
+  display: inline-flex;
+  padding: 10px;
+  color: red;
+}
+
+@keyframes logo-spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+
+.profile-name {
+  padding-left: 10px;
+  font-size: 28px;
+}
+
+.profile-info-power {
+  margin-left: 10px;
+  color: yellow;
+  color: dodgerblue;
+  font-family: calcFont;
+  font-size: 28px;
+}
+
+.profile-info-bolt {
+  animation: logo-spin infinite 1.5s linear;
+  margin-right: 5px;
+  color: yellow;
+}
+
+.profile-prefs {
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pref-title {
+  align-items: center;
+  color: rgb(54, 185, 110);
+}
+
+.profile-pref-choices {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile-pref-icon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 0.4;
+  background-color: #000;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.profile-pref-icon-active, .profile-pref-icon:hover {
+  opacity: 1.0;
+  background-color: #000;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.vert-div-sep {
+  height: 100%;
+  width: 0px;
+  padding-left: 10px;
+  margin-left: 10px;
+  font-size: 32px;
+  border-left: 1px solid gray;
+  text-indent: -9999px;
+  white-space: nowrap;
+}
+
